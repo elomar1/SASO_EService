@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62.256" height="55.099" viewBox="0 0 62.256 55.099">
+  <g id="servIcon28" transform="translate(8.786 16.381)">
+    <rect id="Circle" width="44" height="44" rx="22" transform="translate(9.47 -16.381)" fill="#3ca078" opacity="0.2"/>
+    <g id="Icon" transform="translate(-8.8 -4.661)">
+      <path id="Path_130013" data-name="Path 130013" d="M57.086,491.667H32.867a15.176,15.176,0,0,0-3.585.206A6.055,6.055,0,0,0,25,496.155" transform="translate(-23.486 -461.898)" fill="none" stroke="#3ca078" stroke-miterlimit="133.333" stroke-width="3"/>
+      <line id="Line_8" data-name="Line 8" x2="16.146" transform="translate(9.587 11.605)" fill="none" stroke="#3ca078" stroke-linecap="round" stroke-miterlimit="133.333" stroke-width="3"/>
+      <line id="Line_9" data-name="Line 9" x2="10.091" transform="translate(9.587 18.669)" fill="none" stroke="#3ca078" stroke-linecap="round" stroke-miterlimit="133.333" stroke-width="3"/>
+      <path id="Path_130014" data-name="Path 130014" d="M37.11,65.365c-5.709,0-8.563,0-10.336-1.773S25,58.964,25,53.256V37.11c0-5.709,0-8.563,1.773-10.336S31.4,25,37.11,25h8.073c5.708,0,8.563,0,10.336,1.773S57.292,31.4,57.292,37.11M45.183,65.365c5.708,0,8.563,0,10.336-1.773s1.773-4.628,1.773-10.336V45.183" transform="translate(-23.486 -23.486)" fill="none" stroke="#3ca078" stroke-linecap="round" stroke-miterlimit="133.333" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

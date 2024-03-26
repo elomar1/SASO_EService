@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="IconDateBig" transform="translate(-1712 -1050)">
+    <g id="Circle" transform="translate(1712 1050)" fill="#066058" stroke="#066058" stroke-width="1">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="24.5" fill="none"/>
+    </g>
+    <path id="Icon" d="M23.5,17.5h-6v6h6Zm-2-13v2h-10v-2h-3v2H7A2.507,2.507,0,0,0,4.5,9V26A2.507,2.507,0,0,0,7,28.5H26A2.507,2.507,0,0,0,28.5,26V9A2.507,2.507,0,0,0,26,6.5H24.5v-2ZM26,26H7V12.75H26Z" transform="translate(1720.5 1058.5)" fill="#fff"/>
+  </g>
+</svg>

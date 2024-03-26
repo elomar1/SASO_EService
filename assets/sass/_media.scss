@@ -1,0 +1,438 @@
+@media (min-width: 1699.99px) {
+  .containerCustom {
+    max-width: 1600px;
+  }
+}
+@media (max-width: 1700px) {
+
+  .sasoFooter .containerCustom,
+  .containerCustom.mrAuto,
+  .menuDesktopBG .containerCustom,
+  .breadCrumbBG .containerCustom,
+  .navbarCustomSaso .containerCustom {
+    max-width: unset;
+    width: 95%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .newEventSec .boxNews .readMore,
+  .newEventSec .boxNews .newsTxt .dateNews span,
+  .menuDesktopBG .menuDesktop li a,
+  .btnMainBorder,
+  .btnMainLight,
+  .btnGray,
+  button,
+  .btnMain,
+  .btnMainWhite,
+  .DashboardLinks .userProfile .btnMainWhite span {
+    font-size: 14px;
+  }
+  .newEventSec .boxNews .newsTxt .font19,
+  .dateBtn span,
+  .addNewServ span,
+  .customTable .table thead th,
+  .font21 {
+    font-size: 16px;
+  }
+  .lastSectionDashbord .reqBox:not(.firstOne) .reqText h4,
+  .customTable .actionTable .heading {
+    font-size: 18px;
+  }
+  .DashboardLinks .userProfile .logoText .font22 {
+    font-size: 20px;
+  }
+  .font30 {
+    font-size: 25px;
+  }
+  .requsetWapper .reqBox .reqText .counter {
+    font-size: 30px;
+  }
+  .requsetWapper .reqBox .reqText .counter {
+    font-size: 40px;
+  }
+  .DashboardLinks .userProfile {
+    padding: 40px;
+  }
+  body {
+    zoom: 0.8;
+  }
+  @supports not (zoom: 0.8) {
+    html {
+      height: 100%;
+    }
+    body {
+      transform: scale(0.8);
+      transform-origin: 100% 0;
+      width: 125%;
+      height: 100%;
+    }
+  }
+  .requsetWapper .reqBox .reqLogo img {
+    width: 65px;
+  }
+  .requsetWapper .reqBox {
+    padding: 20px 15px;
+  }
+  .menuDesktopBG .menuDesktop li a {
+    margin-#{$end-direction}: 40px;
+  }
+  .customTable .table tbody td a img {
+    width: 25px;
+  }
+  .DashboardLinks .userProfile .btnMainWhite {
+    padding: 10px;
+  }
+  .DashboardLinks .sliderFav .boxFav {
+    min-height: 125px;
+  }
+  .DashboardLinks .sliderFav .boxFav p {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  .newEventSec {
+    padding: 25px;
+    min-height: 400px;
+  }
+  .servicesWrapper2 .servBox .actionsSer a {
+    padding: 10px 15px;
+  }
+  .ratingV2 .ratedCurrent .rateWrapper {
+    flex-shrink: 0;
+  }
+  /* end 1600 */
+}
+
+@media (max-width: 1200px) {
+  .sasoFooter .sasoRSV a,
+  .sasoFooter .sasoRSV p,
+  .sasoFooter .policySec a,
+  .sasoFooter .policySec p {
+    font-size: 10px;
+  }
+  .sasoFooter .logosFooter a:not(:last-of-type) {
+    margin-#{$start-direction}: 12px;
+  }
+  .sasoFooter .logosFooter a img {
+    zoom: 0.8;
+  }
+  .services-tabs .tab-content ul li {
+    font-size: 14px;
+  }
+  .services-tabs .tab-content ol li {
+    font-size: 14px;
+  }
+  .services-tabs .tab-content ul.docs li a {
+    font-size: 14px;
+  }
+  .servicesWrapper2,
+  .servicesWrapper {
+    padding: 0;
+  }
+  .servicesWrapper .servBox .btnMain {
+    width: auto;
+    padding: 10px 24px;
+  }
+  .layoutNotHomeOrDashboard {
+    padding: 47px 40px;
+  }
+  .service-det-main .head-box .start-serv {
+    font-size: 14px;
+  }
+  /* end 1200 */
+}
+
+@media (max-width: 992px) {
+  .sasoFooter .container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .sasoFooter .sasoRSV {
+    margin-top: 10px;
+  }
+  .navbarCustomSaso .navbar.navbar-expand-lg .navbar-nav.mr-auto {
+    margin-top: 40px;
+  }
+  .navbarCustomSaso .navbar-light .navbar-nav .nav-link {
+    margin-#{$start-direction}: 0;
+    margin-bottom: 10px;
+  }
+  .sasoFooter .containerCustom,
+  .containerCustom.mrAuto,
+  .menuDesktopBG .containerCustom,
+  .breadCrumbBG .containerCustom,
+  .fullWidthBGContantUs.service-det-main .container,
+  .layoutWidhSideMenu.services-tabs .container,
+  .ratingV2 .container,
+  .navbarCustomSaso .containerCustom { 
+    max-width: unset;
+    width: 98%;
+  }
+  .containerCustom {
+    .col-md-3,
+    .col-md-9 {
+      width: 100%;
+    }
+    .col-md-9 {
+      margin-top: 30px;
+    }
+  }
+  .navbarCustomSaso .navbar-light .navbar-toggler {
+    color:rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+ .navbarCustomSaso .navbar-light .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+  }
+  .navbarCustomSaso .navbar-toggler:focus {
+    box-shadow: unset;
+  }
+  .RegisterSection,
+  .loginSection {
+    width: 100%;
+    padding: 35px 20px;
+    margin: 0 0 25px 0;
+  }
+  textarea:not([type="submit"]), select:not([type="submit"]), input:not([type="submit"]) {
+    max-width: unset;
+  }
+  .loginSection .form {
+    width: 100%;
+  }
+  .marBtm50 {
+    margin-bottom: 25px;
+  }
+  .service-det-main .head-box {
+    width: 100%;
+  }
+  .services-sideCard {
+    transform: unset;
+    margin: 30px 0;
+  }
+
+  .serviceBuy {
+    .searchSerBuy {
+      flex-direction: column;
+      .exportSec {
+        margin-top: 15px;
+      }
+      .mainSearch {
+        > input {
+          width: 55%;
+        }
+      }
+ 
+    }
+  }
+  /* end 992 */
+}
+@media (max-width: 767px) {
+  .font30 {
+    font-size: 25px;
+  }
+
+  .requsetWapper .reqBox {
+    margin-bottom: 20px;
+  }
+  .menuDesktopBG .menuDesktop li a {
+    margin-#{$end-direction}: 20px;
+    font-size: 13px;
+  }
+  .menuDesktopBG .menuDesktop li a img {
+    width: 25px;
+  }
+  .menuDesktopBG .menuDesktop li:last-of-type a {
+    margin-#{$end-direction}: 0;
+  }
+  .navbarCustomSaso {
+    background-size: 70%;
+  }
+
+  .navbarCustomSaso .navbar-light .navbar-nav {
+    padding: 0;
+  }
+  .navbarCustomSaso .userNm .dropdown-menu {
+    padding: 21px 20px 5px 20px;
+    margin-top: 10px;
+  }
+  .navbarCustomSaso .userNm .dropdown-menu::after {
+    top: 26px;
+    #{$end-direction}: 10px;
+  }
+  .navbarCustomSaso .navbar-light .navbar-nav  > li:first-of-type {
+    margin-top: 0;
+    margin-bottom: 26px;
+  }
+  .navbarCustomSaso .navbar-light .navbar-nav > li {
+    margin-top: 20px;
+  }
+  .containerCustom.mrAuto {
+    padding: 40px 0 10px;
+  }
+  .sasoFooter .sasoRSV {
+    margin-top: 10px;
+  }
+  .sasoFooter .policySec {
+    margin: 10px 0;
+  }
+  .services-tabs .nav .nav-link + .nav-link {
+    margin-#{$start-direction}: 15px;
+  }
+  .services-tabs .nav .nav-link {
+    font-size: 14px;
+    padding: 7px 5px;
+  }
+  .services-tabs .tab-content ul li {
+    font-size: 14px;
+  }
+  .services-tabs .tab-content h5 {
+    font-size: 14px;
+    margin: 0 0 20px 0;
+  }
+  .services-tabs .tab-content ul li::marker {
+    font-size: 14px;
+  }
+  .services-tabs .tab-content ul li .DgaLink span {
+    font-size: 12px;
+  }
+  .services-tabs .tab-content ul li .DgaLink img {
+    width: 14px;
+  }
+
+  .services-tabs .tab-content ul.docs {
+    padding-inline-start: 23px;
+  }
+  .services-tabs .tab-content ul.docs li::before {
+    top: 3px;
+    #{$start-direction}: -22px;
+    width: 12px;
+    height: 15px;
+  }
+  .services-tabs .tab-content ol li {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .services-tabs .tab-content ul.docs li a {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .customTable .actionTable .fieldsGroup .btnMainBorder {
+    min-width: auto;
+  }
+  .customTable .actionTable {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .requsetWapper {
+    display: block;
+  }
+  .lastSectionDashbord .reqBox {
+    min-height: auto;
+    padding: 20px;
+  }
+  .lastSectionDashbord .firstOne .reqText h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .sasoFooter .container {
+    flex-direction: column-reverse;
+  }
+  .breadCrumbBG .breadCrumb li a, .breadCrumbBG .breadCrumb span a {
+    font-size: 12px;
+  }
+  .DashboardLinks .sideMenu li {
+    margin-bottom: 10px;
+  }
+  .DashboardLinks .sideMenu li a {
+    font-size: 18px;
+    padding: 15px;
+    min-height: 60px;
+  }
+  .layoutNotHomeOrDashboard {
+    padding: 30px 20px;
+    margin-bottom: 30px;
+  }
+  .servicesWrapper2, .servicesWrapper {
+    display: block;
+  }
+  .servicesWrapper2 .servBox, .servicesWrapper .servBox {
+    width: 100%;
+    min-height: unset;
+    max-width: unset;
+    margin-bottom: 10px;
+  }
+  .servicesWrapper2 .servBox .actionsSer a {
+    transform: translate(0px, 0px);
+  }
+  .dateDayWrapper .dateDay {
+    flex-wrap: wrap;
+  }
+  .dateDayWrapper .dateTimebox label img {
+    width: 20px;
+  }
+  .dateDayWrapper .dateDay label {
+    min-height: 80px;
+  }
+  .dateDayWrapper .dateTimebox label, .dateDayWrapper .dateDay label {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+
+  }
+  .serBuyBox .actionSer button img, .serBuyBox .actionSer a img {
+    margin-#{$start-direction}: 5px;
+    width: 19px;
+  }
+  .pagination a {
+    width: 30px;
+    height: 30px;
+  }
+  .mainSearch {
+    text-align: #{$start-direction};
+    > input {
+      width: 100% !important;
+      margin-bottom: 15px;
+    }
+  }
+  .serviceBuy {
+    .exportSec,
+    .mainSearch {
+      text-align: #{$start-direction};
+    }
+    .searchSerBuy {
+      flex-direction: column;
+      .exportSec {
+        margin-top: 15px;
+        .btnMainBorder  {
+          margin: 0;
+        }
+      }
+    }
+  }
+  .shoppingSec .actionShopping {
+    margin-top: 20px;
+    display: block;
+    .btns {
+      margin-top: 20px;
+    }
+  }
+  .customTable2 > :not(caption) > * > * {
+    text-align: #{$start-direction};
+    white-space: nowrap;
+  }
+  .fullWidthBGContantUs .col-md-12 .p16,
+  .fullWidthBGContantUs .col-md-12 .font35 {
+    width: 100%;
+  }
+  .service-det-main .head-box {
+    flex-direction: column;
+  }
+  .ratingV2 .ratingAO {
+    padding: 5px 0 10px;
+  }
+  .ratedCurrent {
+    .p16 {
+      font-size: 12px;
+    }
+  }
+  /* end 767 */
+}

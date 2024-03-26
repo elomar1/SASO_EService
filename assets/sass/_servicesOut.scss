@@ -1,0 +1,531 @@
+.service-det-main p.name {
+    font-size: 16px;
+    color: #58595B;
+    margin-bottom: 17px;
+}
+
+.service-det-main .head-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 65%;
+    margin-bottom: 20px;
+}
+
+.service-det-main .head-box .font35 {
+    width: auto;
+    padding: 0;
+}
+
+.service-det-main .head-box .start-serv {
+    display: block;
+    font-size: 16px;
+    font-family: "AlmaraiBold";
+    color: #fff;
+    background-color: #066058;
+    padding: 7px 25px 5px;
+    border-radius: 10px;
+    margin-#{$end-direction}: 0;
+    margin-#{$start-direction}: auto;
+}
+
+.service-det-main .hashtags {
+    margin-bottom: 24px;
+}
+
+.innerpages .rating i.icon-star.rating-star.active,
+.ratingAO>input:checked~label:before,
+.ratingAO:not(:checked)>label:hover:before,
+.ratingAO:not(:checked)>label:hover~label:before {
+    color: #3CA078 !important;
+}
+
+.service-det-main .hashtags span {
+    padding: 3px 12px 4px;
+    font-size: 14px;
+    border-radius: 12px;
+    transition: 500ms;
+}
+
+.service-det-main .hashtags a+a {
+    margin-#{$start-direction}: 8px;
+}
+
+.service-det-main .hashtags span.blue {
+    background-color: #0096b633;
+    color: #003462;
+}
+
+.service-det-main .hashtags span.blue:hover {
+    background-color: #3ca078;
+    color: #fff;
+}
+
+.service-det-main .hashtags span.red {
+    background-color: #cf7a7a33;
+    color: #8E2727;
+}
+
+.service-det-main .hashtags span.red:hover {
+    background-color: #CF7A7A;
+    color: #fff;
+}
+
+.service-det-main .hashtags span.green {
+    background-color: #3ca07833;
+    color: #066058;
+}
+
+.service-det-main .hashtags span.green:hover {
+    background-color: #3CA078;
+    color: #fff;
+}
+
+.service-det-main .p16 {
+    padding-#{$end-direction}: 50px;
+}
+
+.service-det-main .links {
+    margin-top: 30px;
+}
+
+.service-det-main .links .DgaLink+.DgaLink {
+    margin-#{$start-direction}: 15px;
+}
+
+.service-det-main .links .DgaLink span {
+    font-size: 24px;
+}
+
+.service-det-main .links .DgaLink img {
+    transform: scaleX(-1);
+    margin-#{$start-direction}: 3px;
+}
+
+.fullWidthBGContantUs .font35 {
+    font-size: 35px;
+}
+
+.fullWidthBGContantUs .col-md-12 .font35 {
+    width: 80%;
+}
+
+.fullWidthBGContantUs .col-md-12 .p16 {
+    width: 65%;
+}
+
+.layoutWidhSideMenu .alertBadge .font20 {
+    font-size: 20px;
+}
+
+.layoutWidhSideMenu .alertBadge .p16,
+.fullWidthBGContantUs .p16 {
+    font-size: 16px;
+    color: #58595B;
+}
+
+.fullWidthBGContantUs {
+    background: #0095b61a;
+    padding: 40px 0 30px;
+    min-height: 300px;
+}
+
+.fullWidthBGContantUs .font35 {
+    color: #464749;
+    line-height: normal;
+    padding-bottom: 24px;
+}
+
+.services-tabs .tab-content {
+    padding: 0;
+}
+
+.services-tabs .tab-content ul {
+    list-style: disc;
+    padding-inline-start: 22px;
+
+}
+
+.services-tabs .tab-content ul li {
+    list-style: disc;
+    color: #58595B;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.services-tabs .tab-content ul li a {
+    display: inline-block;
+}
+.services-tabs .tab-content ul li::marker {
+    font-size: 18px;
+    color: #3CA078
+}
+
+.services-tabs .tab-content h5 {
+    font-size: 16px;
+    font-family: "AlmaraiBold";
+    color: #58595B;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.services-tabs .tab-content ul li .DgaLink span {
+    text-decoration: underline;
+}
+
+.services-tabs .tab-content ul li .DgaLink img {
+    transform: scaleX(-1);
+    margin-#{$start-direction}: 3px;
+}
+
+
+.services-tabs .tab-content ul.docs {
+    padding-inline-start: 30px;
+    list-style: none;
+
+}
+
+.services-tabs .tab-content ul.docs li {
+    position: relative;
+    list-style: none;
+}
+
+.services-tabs .tab-content ul.docs li::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    #{$start-direction}: -28px;
+    width: 16px;
+    height: 20px;
+    background-image: url(newImgDga/service-det/Styles-and-tokens-EN-&-AR.svg);
+    background-position: center;
+    background-size: contain;
+}
+
+.services-tabs .tab-content ul.docs li a {
+    font-size: 16px;
+    color: #58595B;
+    text-decoration: underline;
+    transition: 300ms;
+}
+
+.services-tabs .tab-content ul.docs li a:hover {
+    color: #3ca078;
+}
+
+.services-tabs .tab-content ol {
+    list-style: auto;
+    padding-#{$start-direction}: 22px;
+}
+
+
+.services-tabs .tab-content ol li {
+    list-style: auto;
+    color: #58595B;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-#{$start-direction}: 10px;
+
+}
+
+.services-tabs .tab-content ol li::marker {
+    color: #3CA078
+}
+
+.ratedCurrent .icon-star:before {
+    color: #3CA078 !important;
+}
+
+.services-tabs .nav .nav-link {
+    font-size: 16px;
+    color: #787676;
+    background-color: transparent;
+    border: none;
+    padding: 10px 5px;
+    opacity: .5;
+}
+
+.services-tabs .nav .nav-link+.nav-link {
+    margin-#{$start-direction}: 25px;
+}
+
+.services-tabs .nav .nav-link:hover {
+    border: 0;
+
+}
+
+.services-tabs .nav .nav-link.active {
+    color: #464749;
+    opacity: 1;
+    border-bottom: 3px solid #3CA078
+}
+
+.branchesV2 {
+    transform: translateY(-135px);
+    background: #fff;
+    padding: 42px 35px 50px 35px;
+    border-radius: 4px;
+    box-shadow: 0 6px 30px rgba(22, 25, 26, 0.07);
+}
+
+.branchesV2 .font22 {
+    font-size: 22px;
+    padding-bottom: 15px;
+    padding: 0;
+    color: #3CA078;
+}
+
+.branchesV2 .formGroup .col-form-label {
+    display: block;
+    padding-bottom: 11px;
+}
+
+.branchesV2 .formGroup select {
+    width: 100% !important;
+}
+
+.services-sideCard {
+    padding-bottom: 50px;
+    transform: translateY(-263px);
+}
+
+.services-sideCard .branchesDetailsWapper .breanchBox .BTxt .p16.blueColor {
+    font-family: "AlmaraiBold";
+
+}
+
+.download-det {
+    border: 1px solid #3CA078;
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+
+.services-sideCard .branchesDetailsWapper h5 {
+    font-size: 18px;
+    font-family: "AlmaraiBold";
+    color: #464749;
+    margin-bottom: 32px;
+    padding-top: 40px;
+    border-top: 1px solid #C3E0E6;
+    margin-top: 10px;
+
+}
+
+.branchesDetailsWapper .breanchBox {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.branchesDetailsWapper .breanchBox .BIcon img {
+    width: 25px;
+    margin-#{$end-direction}: 12px;
+    padding-top: 4px;
+}
+
+.branchesDetailsWapper .breanchBox .BTxt .font18 {
+    font-size: 18px;
+    color: #464749 !important;
+    margin-bottom: 15px;
+    ;
+}
+
+.branchesDetailsWapper .breanchBox .BTxt .p16 {
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.branchesDetailsWapper .blueColor {
+    color: #3CA078
+}
+
+.branchesDetailsWapper .DgaLink span {
+    font-size: 18px;
+    text-decoration: underline;
+    color: #464749;
+}
+
+.branchesDetailsWapper .DgaLink img {
+    margin-#{$start-direction}: 4px;
+    display: inline-block;
+    transform: translateY(3px);
+    max-width: 17px;
+}
+
+.branchesDetailsWapper .followUS {
+    border-top: 1px solid #C3E0E6;
+}
+
+.updateTime {
+    border-bottom: 2px solid #3ca078;
+    margin-bottom: 19px;
+    padding-bottom: 19px;
+}
+
+.updateTime .p12 {
+    text-align: #{$end-direction};
+    color: #242424;
+    font-size: 12px;
+}
+
+.ratingV2 {
+    padding-bottom: 40px
+}
+
+.ratingAO {
+    display: flex;
+    flex-direction: row-reverse;
+    border: none;
+}
+
+.ratingAO>label {
+    color: #90A0A3;
+    float: #{$start-direction};
+}
+
+.ratingAO>label:before {
+    position: unset !important;
+    #{$end-direction}: unset !important;
+    #{$start-direction}: unset !important;
+    width: unset !important;
+    height: unset !important;
+    background: unset !important;
+    border: unset !important;
+    border-radius: 5px !important;
+    margin: 5px !important;
+    font-size: 2em !important;
+    font-family: "saso-icons";
+    font-style: normal;
+    font-weight: normal;
+    content: '\e850' !important;
+    display: inline-block !important;
+    color: #DCDCDC;
+}
+
+.ratingAO input[type=radio]:checked+label:after {
+    all: initial;
+}
+
+.ratingAO>input {
+    display: none !important;
+}
+
+.ratingAO>input:checked~label:before,
+.ratingAO:not(:checked)>label:hover:before,
+.ratingAO:not(:checked)>label:hover~label:before {
+    color: #3CA078;
+    content: '\e851' !important;
+}
+
+.ratingAO>input:checked+label:hover,
+.ratingAO>input:checked~label:hover,
+.ratingAO>label:hover~input:checked~label,
+.ratingAO>input:checked~label:hover~label {
+    color: #3CA078;
+}
+
+.ratingV2 .hiddenRating .formGroup textarea {
+    width: 100%;
+    margin-bottom: 63px;
+    max-width: unset;
+}
+
+.ratingV2 .ratedCurrent {
+    display: flex;
+}
+
+.ratingV2 .ratedCurrent .rateWrapper .rating>i {
+    display: inline-block;
+    position: relative;
+    margin-#{$start-direction}: -5px;
+    color: #228B5E;
+    line-height: 0;
+    font-size: 19px;
+}
+
+.ratingV2 .icon-star.active.icon-star-half-alt::before {
+    transform: scaleX(-1);
+}
+
+.ratingV2 .hiddenRating {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.ratingV2 .hiddenRating .closeRating {
+    position: absolute;
+    #{$end-direction}: 0;
+    top: 0;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+}
+
+.ratingV2 .hiddenRating .closeRating span {
+    font-size: 18px;
+    color: #000000;
+    margin-#{$end-direction}: 11px;
+}
+
+.ratingV2 .hiddenRating .textRate .font18 {
+    font-size: 18px;
+    color: #464749;
+    margin-bottom: 10px;
+}
+
+.ratingV2 .hiddenRating .textRate .p16 {
+    padding: 0;
+    color: #585858;
+    font-size: 16px;
+}
+
+.ratingV2 .ratedCurrent .rateWrapper {
+    margin-#{$start-direction}: 15px;
+}
+
+.ratingV2 .hiddenRating .formGroup .col-form-label {
+    padding-bottom: 16px;
+}
+
+.ratingV2 .hiddenRating .formGroup textarea {
+    height: 80px;
+    resize: none;
+}
+
+.ratingV2 .hiddenRating .formGroup .primaryBtnSaso {
+    margin-top: 60px;
+}
+
+.ratingV2 .ratingAO {
+    justify-content: #{$start-direction};
+    padding: 35px 0 60px;
+}
+
+.ratingV2 .ratingAO>label:before {
+    font-size: 1.7em !important;
+    color: #757575;
+
+}
+
+.ratingV2 .ratedCurrent .rateWrapper .rating>i {
+    cursor: default
+}
+
+.ratingV2 .ratedCurrent .rateWrapper .icon-star-empty:not(.icon-star-half-alt):before {
+    content: '\e850';
+    color: #707070;
+}
+
+.ratingV2 .ScuccessRate p {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    font-size: 16px;
+    color: #3CA078;
+}
+
+.ratingV2 .ScuccessRate p img {
+    margin-#{$end-direction}: 16px;
+}
+
+.ratingV2 .toRateEL {
+    display: none
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "AlmaraiRegular";
+  src: local($font-path + "Almarai Regular"), local("Almarai-Bold"),
+    url($font-path + "Almarai-Regular.woff2") format("woff2"),
+    url($font-path + "Almarai-Regular.woff") format("woff"),
+    url($font-path + "Almarai-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "AlmaraiLight";
+  src: local($font-path + "Almarai Light"), local("Almarai-Bold"),
+    url($font-path + "Almarai-Light.woff2") format("woff2"),
+    url($font-path + "Almarai-Light.woff") format("woff"),
+    url($font-path + "Almarai-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "AlmaraiBold";
+  src: local($font-path + "Almarai Bold"), local("Almarai-Bold"),
+    url($font-path + "Almarai-Bold.woff2") format("woff2"),
+    url($font-path + "Almarai-Bold.woff") format("woff"),
+    url($font-path + "Almarai-Bold.ttf") format("truetype");
+}
